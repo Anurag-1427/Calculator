@@ -1,0 +1,648 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-logo > img {
+  width: 50px;
+}
+.logo {
+  margin-top: 13px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.modes > img {
+  width: 50px;
+}
+
+nav {
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 75px;
+}
+nav ul li {
+  justify-content: space-between;
+  padding: 0 20px;
+  line-height: 10px;
+  list-style: none;
+  padding: 12px;
+  margin: 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 12px;
+  margin: 12px;
+  color: #504b9b;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  transition: all 0.5 ease 0s;
+  color: #504b9b;
+  border-bottom: 1px solid black;
+  font-weight: bolder;
+  font-size: 1.05rem;
+}
+nav ul li a:active {
+  transition: all 0.5 ease 0s;
+  color: rgb(36, 34, 34);
+  border-bottom: 1px solid black;
+}
+nav ul li a:focus {
+  transition: all 0.5 ease 0s;
+  color: rgb(36, 34, 34);
+  border-bottom: 1px solid black;
+}
+.modes {
+  cursor: pointer;
+}
+
+svg{
+    display: inline-block;
+    width: 50em;
+    height: 35em;
+    position: absolute;
+    right: 55px;
+
+}
+
+.main-line{
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    width: 10em;
+
+}
+span{
+    font: bolder;
+    font-size: 5rem;
+    color: rgb(108, 99, 255);
+}
+#sml-symbol{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 150px;
+    top: 480px;
+    
+  }
+  #square{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(108, 99, 255);
+    margin-bottom: 6px;
+  }
+  #line1{
+    height: 1px;
+    width: 80px;
+    background-color: rgb(108, 99, 255);
+    margin-bottom: 8px;
+  }
+  #line2{
+    height: 1px;
+    width: 60px;
+    background-color: rgb(108, 99, 255);
+    margin-bottom: 6px;
+  }
+
+/* Content */
+#welcome{
+  display: inline-block;
+    width: 50em;
+    height: 35em;
+    position: absolute;
+    top: 50em;
+    left: 55px;
+}
+
+.calci-name{
+  position: absolute;
+  top: 70px;
+  right: -500px;
+}
+#simple{
+  font-size: 50px;
+  position: relative;
+  left: -300px;
+}
+#scientific{
+  position: relative;
+  font-size: 60px;
+  left: -120px;
+}
+#bmi{
+  position: relative;
+  font-size: 80px;
+  left: 140px;
+}
+
+/* Cards */
+#cards{
+  position: relative;
+  top: 100em;
+  left: 350px;
+  height: 1200px;
+  width: 850px;
+}
+#card-1{
+  position: absolute;
+  width: 850px;
+  height: 300px;
+}
+#card-1>svg{
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  left: 1px;
+}
+#card-1-content{
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  right: 1px;
+}
+div>h5{
+  position: absolute;
+  left: 10px;
+  font-size: 30px;
+  top: 50px;
+}
+div>button{
+  position: absolute;
+  left: 10px;
+  top: 130px;
+  background-color: #6c63ff;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 119px;
+  height: 37px;
+  text-shadow: none;
+  border: none;
+}
+div>button>a{
+  text-decoration: none;
+}
+
+
+#card-2{
+  position: absolute;
+  width: 850px;
+  height: 300px;
+}
+#card-2-content{
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  left: 1px;
+  top: 300px;
+}
+#card-2>svg{
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  right: 20px;
+  top: 280px;
+}
+
+#card-3{
+  position: absolute;
+  width: 850px;
+  height: 300px;
+}
+#card-3-content{
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  right: 1px;
+  top: 600px;
+}
+#card-3>svg{
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  left: 110px;
+  top: 570px;
+}
+#card-4{
+  position: absolute;
+  width: 850px;
+  height: 300px;
+}
+#card-4-content{
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  left: 1px;
+  top: 900px;
+}
+#a1446b94-79a8-45dc-beee-b314ae1acdc1{
+  width: 300px;
+  height: 280px;
+  position: absolute;
+  left: 550px;
+  top: 10px;
+}
+#b22e8909-c3f8-4767-9c4c-2d5712586e12{
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  right: 210px;
+  top: 90px;
+}
+
+/* Footer */
+.footer{
+  background-color: #6c63ff;
+  position: absolute;
+  bottom: -2500px;
+  height: 200px;
+  width: 1519px;
+}
+
+.left{
+  font-size: 22px;
+  position: absolute;
+  top: 82px;
+  left: 92px;
+  color: white;
+}
+.vertical-line{
+  background-color: white;
+  height: 150px;
+  width: 2px;
+  position: absolute;
+  left: 600px;
+  top: 19px;
+}
+.right{
+  width: 717px;
+  height: 150px;
+  position: absolute;
+  right: 100px;
+  top: 21px;
+}
+.right>ul{
+  list-style: none;
+  position: absolute;
+  left: 10px;
+  top: 19px;
+  margin-bottom: 14px;
+}
+
+.right ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+    margin-bottom: 14px;
+    padding: 14px;
+}
+.right ul li a:hover{
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.right p{
+  color: white;
+  position: absolute;
+  left: 395px;
+}
+#info-1{
+  position: absolute;
+  top: 32px;
+}
+#info-2{
+  position: absolute;
+  top: 75px;
+}
+
+@media only screen and (max-width: 1355px){
+  svg{
+    display: inline-block;
+    width: 50em;
+    height: 35em;
+    position: absolute;
+    left: 590px;
+}
+#fd1e300e-6133-4b79-9025-3394cccdd89f{
+  display: inline-block;
+    width: 50em;
+    height: 35em;
+    position: absolute;
+    left: -10px;
+}
+#scientific{
+  position: relative;
+  font-size: 60px;
+  left: -150px;
+}
+#bmi{
+  position: relative;
+  font-size: 80px;
+  left: 80px;
+}
+nav {
+  height: 60px;
+  /* background-color: aqua; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100em;
+}
+}
+
+@media only screen and (max-width: 1024px){
+  svg{
+    display: inline-block;
+    width: 50em;
+    height: 35em;
+    position: absolute;
+    left: 690px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  svg{
+    display: inline-block;
+    width: 50em;
+    height: 35em;
+    position: absolute;
+    top: -560px;
+    left: 690px;
+}
+.main-line{
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 5em;
+  left: 11em;
+  width: 10em;
+}
+#sml-symbol{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 520px;
+  top: 480px;
+  
+}
+#square{
+  height: 15px;
+  width: 15px;
+  background-color: rgb(108, 99, 255);
+  margin-bottom: 6px;
+}
+#line1{
+  height: 1px;
+  width: 80px;
+  background-color: rgb(108, 99, 255);
+  margin-bottom: 8px;
+}
+#line2{
+  height: 1px;
+  width: 60px;
+  background-color: rgb(108, 99, 255);
+  margin-bottom: 6px;
+}
+#welcome{
+  display: inline-block;
+    width: 50em;
+    height: 35em;
+    position: absolute;
+    top: 80em;
+    left: 115px;
+}
+.calci-name{
+  position: absolute;
+  top: -450px;
+  right: -500px;
+}
+#simple{
+  font-size: 50px;
+  position: relative;
+  left: -300px;
+}
+#scientific{
+  position: relative;
+  font-size: 60px;
+  left: -120px;
+}
+#bmi{
+  position: relative;
+  font-size: 80px;
+  left: 140px;
+}
+
+
+#cards{
+  position: relative;
+  top: 100em;
+  left: 350px;
+  height: 1700px;
+  width: 850px;
+}
+#card-1{
+  position: absolute;
+  width: 850px;
+  height: 500px;
+}
+#card-1>svg{
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  top: 10px;
+  left: 250px;
+}
+#card-1-content{
+  position: absolute;
+  height: 900px;
+  width: 500px;
+  top: 250px;
+  left: 280px;
+}
+div>h5{
+  position: absolute;
+  left: 10px;
+  font-size: 30px;
+  top: 50px;
+}
+div>button{
+  position: absolute;
+  left: 10px;
+  top: 130px;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 119px;
+  height: 37px;
+  text-shadow: none;
+  border: none;
+}
+div>button>a{
+  text-decoration: none;
+}
+
+
+#card-2{
+  position: absolute;
+  width: 850px;
+  height: 300px;
+}
+#card-2-content{
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  left: 200px;
+  top: 810px;
+}
+#card-2>svg{
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  left: 220px;
+  top: 550px;
+}
+
+#card-3{
+  position: absolute;
+  width: 850px;
+  height: 300px;
+}
+#card-3-content{
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  left: 280px;
+  top: 1300px;
+}
+#card-3>svg{
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  left: 380px;
+  top: 1050px;
+}
+#card-4{
+  position: absolute;
+  width: 850px;
+  height: 40px;
+}
+#card-4-content{
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  left: 300px;
+  top: 1900px;
+}
+#a1446b94-79a8-45dc-beee-b314ae1acdc1{
+  width: 300px;
+  height: 280px;
+  position: absolute;
+  left: -10px;
+  top: -250px;
+}
+#b22e8909-c3f8-4767-9c4c-2d5712586e12{
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  right: 210px;
+  top: -10000px;
+}
+.footer{
+  background-color: #6c63ff;
+  position: absolute;
+  bottom: -2500px;
+  top: 4000px;
+  height: 200px;
+  width: 1519px;
+}
+
+.left{
+  font-size: 22px;
+  position: absolute;
+  top: 82px;
+  left: 92px;
+  color: white;
+}
+.vertical-line{
+  background-color: white;
+  height: 150px;
+  width: 2px;
+  position: absolute;
+  left: 600px;
+  top: 19px;
+}
+.right{
+  width: 717px;
+  height: 150px;
+  position: absolute;
+  right: 100px;
+  top: 21px;
+}
+.right>ul{
+  list-style: none;
+  position: absolute;
+  left: 10px;
+  top: 19px;
+  margin-bottom: 14px;
+}
+
+.right ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+    margin-bottom: 14px;
+    padding: 14px;
+}
+.right ul li a:hover{
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.right p{
+  color: white;
+  position: absolute;
+  left: 395px;
+}
+#info-1{
+  position: absolute;
+  top: 32px;
+}
+#info-2{
+  position: absolute;
+  top: 75px;
+}
+}
+
+
+
+
+body{
+  --text-color: #222;
+  --bkg-color: #fff;
+  
+}
+body.dark-theme{
+  --text-color:#eee;
+  --bkg-color: #121212;
+}
+body{
+  color: var(--text-color);
+  background: var(--bkg-color);
+}
+
+
